@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lukhanyo Mzanywa - Hackathon</title>
+    <link rel="stylesheet" href="/Website/Styling folder/styles1.css"> <!-- Link to external CSS -->
+    <style>
+        body {
+            background-color: #0d0d0d;
+            color: #d896ff;
+            font-family: 'Orbitron', sans-serif;
+            text-align: center;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            width: 80%;
+            max-width: 900px;
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #d896ff;
+            padding-bottom: 10px;
+            width: 100%;
+        }
+        .glow-text {
+            font-size: 24px;
+            text-shadow: 0 0 10px #d896ff, 0 0 20px #a64cff;
+        }
+        .nav-links a {
+            color: #d896ff;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: 0.3s;
+        }
+        .nav-links a:hover {
+            color: #a64cff;
+            text-shadow: 0 0 10px #a64cff;
+        }
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex-grow: 1;
+        }
+        .profile-img {
+            width: 180px;
+            height: auto;
+            border-radius: 50%;
+            box-shadow: 0 0 15px #d896ff;
+            margin-bottom: 20px;
+        }
+        .about {
+            background: rgba(168, 90, 255, 0.2);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px #d896ff;
+            max-width: 700px;
+            text-align: center;
+            font-size: 18px;
+            line-height: 1.6;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body id="home">
+    <div class="container">
+        <header class="header">
+            <h1 class="glow-text">Lukhanyo Mzanywa - Cyber Developer</h1>
+            <nav class="nav-links">
+                <a href="/Website/skills.html">Skills</a>
+                <a href="/Website/contact.html" target="_blank">Contact</a>
+            </nav>
+        </header>
+        
+        <main class="main-content">
+            <section class="about">
+                <h2>About Me</h2>
+                <p>I am a passionate Cyber Developer studying at Power Learn Project. With experience in photography and graphic design, I create sleek, futuristic, and user-friendly websites.</p>
+                <p>My mission is to make the digital world a visually stunning and accessible space for all. Let's build the future together.</p>
+            </section>
+        </main>
+    </div>
+
+    <script src="/Website/Styling folder/Animation.js"></script>
+</body>
+</html>
